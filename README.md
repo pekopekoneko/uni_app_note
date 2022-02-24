@@ -161,3 +161,8 @@ vue create -p D:\Desktop\uni-preset-vue test
 
 (我将这个文件放在如上位置了)
 
+我出现了一个小问题，还得在这个包里再装一遍webpack，不太清楚是为什么
+npm i --save-dev html-webpack-plugin
+
+### 运行
+
