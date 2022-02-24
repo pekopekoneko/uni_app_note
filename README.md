@@ -3,10 +3,15 @@
 ## class 1
 
 pages 是用来存放页面的文件夹
+
 utils 放的是一些工具类
+
 app.js 是项目入口
+
 app.json 是项目配置
+
 app.wxss 是全局的样式表
+
 
 
 ### app.js
