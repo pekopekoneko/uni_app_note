@@ -110,3 +110,54 @@ wx:for-index="ids" {{ids}}
 更多地使用view image text标签
 
 接口能力靠近微信小程序规范
+
+数据绑定同vue规范
+
+建议使用flex布局进行开发
+
+### uni-app特色
+
+条件编译
+
+app端的nvue开发
+
+其内置了wix引擎，可以使用wix和uni-app的组件
+
+html 5+
+
+### uni-app知识点
+
+自定义组件、基础组件
+
+uni-app API
+
+路由
+
+生命周期
+
+语法（布局样式）
+
+## class 3
+
+### 开发环境
+
+HbuilderX
+
+他对于uni-app有较好的支持度
+
+其他的开发软件可能会有不支持的插件
+
+vue-cli的方式运行项目
+
+### 创建模板
+
+给定的 vue create -p dcloudio/uni-preset-vue test-uniapp
+
+连接不上，故从github上直接下载了下来
+
+可以通过如下的命令展开配置
+
+vue create -p D:\Desktop\uni-preset-vue test
+
+(我将这个文件放在如上位置了)
+
