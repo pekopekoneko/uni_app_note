@@ -161,8 +161,45 @@ vue create -p D:\Desktop\uni-preset-vue test
 
 (我将这个文件放在如上位置了)
 
-我出现了一个小问题，还得在这个包里再装一遍webpack，不太清楚是为什么
-npm i --save-dev html-webpack-plugin
+但不如用hbuilderx直接创建
 
-### 运行
+上述的东西在npm编译过程中会出问题
+
+## class 4
+
+### 模板语法
+
+不建议使用 data:{},因为它会保留上次的值，不会被初始化
+
+所以把data作为一个函数return，每次都会新生成数据
+
+### 数据绑定
+
+v-bind:class="classname"
+
+动态修改类，v-bind可以删掉，只留下:
+
+v-on:click="open"
+
+open放在method里面（附属的函数）
+
+接受点击事件,v-on可以使用@替代
+
+### 动态数据绑定
+
+uni中this可以指带本组件
+
+### 条件判断
+
+### 列表渲染
+
+### 基础组件
+
+### 自定义组件
+
+### 基础api
+
+### 条件编译
+
+### 页面布局
 
