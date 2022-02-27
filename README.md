@@ -191,15 +191,61 @@ uni中this可以指带本组件
 
 ### 条件判断
 
+v-if="true"就渲染
+
+{{show?'uni-app':'vue}}这句话的意思是show如果是true，就会显示uni-app，否则显示vue
+
 ### 列表渲染
+
+v-for="item in arr"就是arr中的每个item
+
+index是下标别名
+
+v-for="(item,index) in arr"   {{(index+1)+' '+ item}} 可以输出序号和数组中的东西
 
 ### 基础组件
 
+view相当于div
+
+text相当于span
+
+这些东西建议去dcloud官网去看
+
+<"button" type="default" @click="input>点击</button>
+
+<input type="text" value="value"/>
+
 ### 自定义组件
+
+import btn from '@/components/btn/btn.vue'引入组件
+
+同时在export default中也要把btn放入components中
+
+props接收标签属性，要定义type和default值
+
+this.$emit是自定义的事件
+
 
 ### 基础api
 
+官方文档有不同的解释
+
 ### 条件编译
+
+<!-- #ifdef APP-PLUS||H5 -->
+
+xxxxx
+
+<!-- #endif -->
+
+这种情况下只会在app端编译出中间的组件，其反义为ifndef
 
 ### 页面布局
 
+style中使用page可以定义全局(取代了body)
+
+rpx是自适应的宽度
+
+可以在<style>中通过@import './index.css'的形式引入样式表
+  
+要注意flex的应用
