@@ -246,6 +246,24 @@ style中使用page可以定义全局(取代了body)
 
 rpx是自适应的宽度
 
-可以在<style>中通过@import './index.css'的形式引入样式表
+可以在style中通过@import './index.css'的形式引入样式表
   
 要注意flex的应用
+
+### 生命周期
+
+app.vue中定义了应用的生命周期
+
+onlaunch初始化时仅触发一次
+
+onshow应用启动或者后台返回时触发
+
+onhide切入后台触发的
+
+#### 对于页面的生命周期
+
+onready监听页面初次渲染完成
+
+onload监听页面加载
+
+#### 组件也有生命周期
